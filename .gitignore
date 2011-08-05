@@ -1,3 +1,12 @@
+.classpath
+AndroidManifest.xml
+bin/*
+default.properties
+gen/*
+proguard.cfg
+res/*
+
+
 .DS_Store
 .settings
 .project

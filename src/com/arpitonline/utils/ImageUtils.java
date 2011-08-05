@@ -9,8 +9,6 @@ import android.graphics.BitmapFactory;
 import android.graphics.Matrix;
 import android.util.Log;
 
-import com.arpitonline.worldclock.TimelyPiece;
-
 public class ImageUtils {
 	public static Bitmap getBitmapForImageAtURL(String fileUrl) {
 		
@@ -26,7 +24,6 @@ public class ImageUtils {
           bmImg = BitmapFactory.decodeStream(new SanInputStream(is));
           conn.disconnect();
 		}catch(Exception ex){
-			Log.e(TimelyPiece.WORLD_CLOCK, "Image to Bitmap Error "+ex.getClass().getName());
 		}
 		return bmImg;
      }
