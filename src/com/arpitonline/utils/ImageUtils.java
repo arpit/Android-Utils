@@ -7,7 +7,6 @@ import java.net.URL;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Matrix;
-import android.util.Log;
 
 public class ImageUtils {
 	public static Bitmap getBitmapForImageAtURL(String fileUrl) {
